@@ -1,3 +1,7 @@
+"""
+somar a diagonal princiapl e secundaria junto com as linhas e colunas de uma matriz
+para verificar se é um quadrado mágico
+"""
 N = int(input())
 
 sd = 1
