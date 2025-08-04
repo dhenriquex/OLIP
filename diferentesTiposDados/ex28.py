@@ -6,7 +6,7 @@ def soma (flores, posicao):
         maiorValor = max(flores)
         indice = flores.index(maiorValor)
         
-        soma = sum(int (x) for x in str(maiorValor))
+        soma = sum(map(int, str(maiorValor)))
         flores[indice] -= soma
     return soma
 
